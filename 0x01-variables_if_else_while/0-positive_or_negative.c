@@ -2,26 +2,34 @@
 #include <time.h>
 #include <stdio.h>
 
-/* Positive anything is better than negative nothing */
+/**
+ * main - Entry point
+ * A program that assign a random number
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
+	printf("%d/n", n)
 	if (n > 0)
+
 	{
-		printf("%d/n", n);
+		printf("is positive/n");
 	}
 
 	else if (n == 0)
 	{
-		printf("%d/n", n);
+		printf("is zero/n");
 	}
 
-else
+	else
 	{
-		printf("%d/n", n);
+		printf("is negative/n");
+	}
 
 	return (0);
 }
