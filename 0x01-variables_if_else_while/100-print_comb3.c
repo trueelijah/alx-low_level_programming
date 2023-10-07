@@ -2,26 +2,32 @@
 
 /**
  * main - Entry point
- * A program that prints all possible different combinations of two digits
- * Return: Always 0 (success)
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int digit;
-	int digit1;
+	int FDt; /*FirstDigit*/
+	int LDt; /*LastDigit*/
+	int Jade_i; /*Counter*/
 
-	for (digit = '0' ; digit <= '9' ; digit++)
-		for (digit1 = digit + 1 ; digit1 <= '9' ; digit1++)
+	Jade_i = 0;
 
+	for (FDt = 0; FDt <= 9; FDt++)
 	{
-		putchar(digit);
-		putchar(digit1);
-
-		if (digit != 8 || digit1 != 9)
+		for (LDt = FDt + 1; LDt <= 9; LDt++)
 		{
-		putchar(',');
-		putchar(' ');
+			if (Jade_i > 0)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+
+			putchar(FDt + '0');
+			putchar(LDt + '0');
+			Jade_i = 1;
+
 		}
 	}
 
