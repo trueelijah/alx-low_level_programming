@@ -14,7 +14,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	printf("%d/n", n);
+	printf("%d\n", n);
 
 	if (n > 0)
 	{
@@ -28,7 +28,11 @@ int main(void)
 
 	else
 	{
-		printf("is negative");
+		printf("is negative/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */");
 	}
 
 	return (0);
