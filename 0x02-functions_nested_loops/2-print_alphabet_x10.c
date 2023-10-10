@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-* print_alphabet - Entry point
+* print_alphabet_x10 - Entry point
 * A program that prints alphabet
 * Return: always 0 (success)
 */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 
 {
 	char letter;
