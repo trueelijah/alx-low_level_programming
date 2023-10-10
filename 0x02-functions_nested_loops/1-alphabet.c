@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
-* main - check the code
+* print_alphabet - Entry point
 * A program that prints alphabet
 * Return: always 0 (success)
 */
-int main(void)
+
+void print_alphabet(void)
 
 {
 	char letter;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (letter = 'a' ; letter <= 'z' ; letter++)
 	{
-		putchar(letter);
+		_putchar(letter);
 	}
-	putchar(\n);
+	_putchar('\n');
 }
