@@ -2,15 +2,14 @@
 
 /**
 * add - check the code
-* @int: a function that adds two integer and returns the result
+* @a: a function that adds two integer and returns the result
 * Return: always 0
 */
 
-int add(int, int)
+int add(int a ; int b)
 
 {
-	int a;
-	int b;
+	int n;
 
 	{
 		n = add(a, b);
