@@ -2,11 +2,13 @@
 
 /**
 * _abs - check the code
-* int: a function that computes the absolute vaule of integer
+* @int: a function that computes the absolute vaule of integer
 * Return: always 0
 */
 
 int _abs(int)
+	int n
+
 {
 	if (n > 0)
 	{
