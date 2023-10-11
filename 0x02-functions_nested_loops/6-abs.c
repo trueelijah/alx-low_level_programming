@@ -11,13 +11,11 @@ int _abs(int n)
 {
 	if (n > 0)
 	{
-		_putchar('+');
-		return (+1); /* Character is positive */
+		return (n); /* Character is positive */
 	}
 	else /*(n < 0)*/
 	{
-		_putchar('-');
-		return (-1); /* Character is negative */
+		return (-n); /* Character is negative */
 	}
 
 	return (0);
