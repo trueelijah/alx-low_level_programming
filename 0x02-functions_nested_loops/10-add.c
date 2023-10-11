@@ -2,7 +2,7 @@
 
 /**
 * add - check the code
-* @a&&b: a function that adds two integer and returns the result
+* @a: a function that adds two integer and returns the result
 * Return: always 0
 */
 
