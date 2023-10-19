@@ -4,7 +4,7 @@
  * _strncat - Concatenates at most n bytes of src to dest.
  * @dest: The destination string.
  * @src: The source string to be appended to dest.
- * An: The maximum number of bytes to be appended from src.
+ * @n: The maximum number of bytes to be appended from src.
  *
  * Return: A pointer to the resulting string dest.
  */
