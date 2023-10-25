@@ -1,9 +1,9 @@
 #include "main.h"
 
-/*
+/**
  * _puts_recursion - A function that prints a string
  * @*s: a string which points to variable of charcter type
- * Return: Always 0
+ * Return: void
  */
 
 void _puts_recursion(char *s)
@@ -15,9 +15,7 @@ void _puts_recursion(char *s)
 		_puts_recursion(s + 1);
 	}
 	else
-
 	{
 	_putchar('\n');
 	}
-
 }
