@@ -2,7 +2,7 @@
 
 /**
  * _puts_recursion - A function that prints a string
- * @*s: a string which points to variable of charcter type
+ * @s: a string which points to variable of charcter type
  * Return: void
  */
 
