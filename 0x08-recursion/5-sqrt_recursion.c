@@ -1,22 +1,30 @@
 #include "main.h"
 
+int _sqrt(int n, int i);
+
 /**
- * _pow_recursion - function returns the value of x exponents y
- * @x: integer params
- * @y: integer params
- * Return: integer
+ * _sqrt_recursion - returns the natural square root on n
+ * @n: int n
+ * Return: int
  */
-
-
-int _pow_recursion(int x, int y)
+int _sqrt_recursion(int n)
 {
-	if (y < 0)
-	{
+	return (_sqrt(n, 1));
+}
+
+/**
+ * _sqrt - square recursion
+ * @n: integer paramtr
+ * @i: integer parameter
+ * Return: int
+ */
+int _sqrt(int n, int i)
+{
+	if (n < 0)
 		return (-1);
-	}
-	if (y == 0)
-	{
-	return (1);
-									}
-	return (x * _pow_recursion(x, y - 1));
+	if ((i * i) > n)
+		return (-1);
+	if (i * i == n)
+		return (i);
+	return (_sqrt(n, i + 1));
 }
